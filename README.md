@@ -1,6 +1,6 @@
 # Dynamic Gutenberg block class
 
-A simple class for easily registering a dynamic block in Gutenberg with
+A simple class for easily registering a dynamic block in Gutenberg
 
 ## Simple Example Use
 ```
