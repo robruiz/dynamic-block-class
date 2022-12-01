@@ -4,7 +4,7 @@ A simple class for easily registering a dynamic block in Gutenberg
 
 ## Simple Example Use
 ```
-include_once('.class-DynamicBlock');
+include_once('class-DynamicBlock.php');
 
 $my_block = new DynamicBlock('my-block-name','render_my_block');
 
