@@ -50,6 +50,7 @@ function render_my_block(){
     return ob_get_clean();
 }
 ```
+For professional use, consider changing the $block_namespace string in the class
 
 Please feel free to contribute improvements to this class via PR.
 
