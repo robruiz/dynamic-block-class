@@ -25,6 +25,12 @@ function render_my_block(){
     return $html;
 }
 ```
+Some things to note here:
+- Be sure your block name (first argument when using the DynamicBlock class) matches the block name you used when creating the block with npx
+- You will need to register the block in the index.js of the block properly (whether you are using block.json or not)
+
+The DynamicBlock class makes some assumptions in regards to naming and file location, 
+so be sure to check the code in the class if you have questions about those assumptions
 
 ### Add custom attributes to your block like this: 
 ```
