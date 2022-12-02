@@ -3,7 +3,19 @@
 A simple class for easily registering a dynamic block in Gutenberg
 
 ## Simple Example Use
+### Step 1: Command Line
 ```
+// In your /wp-content/plugins directory, you can
+npx @wordpress/create-block my-block-name
+cd my-block-name
+npm start 
+git clone https://github.com/robruiz/dynamic-block-class.git .
+
+```
+
+### Step 2: Edit my-block-name/my-block-name.php
+```
+
 include_once('class-DynamicBlock.php');
 
 $my_block = new DynamicBlock('my-block-name','render_my_block');
